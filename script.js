@@ -1,4 +1,4 @@
-﻿/* MagicEditor v2.0 — Way To Success Standard Schools — 1st Edition 2025/2026 */
+/* MagicEditor v2.0 — Way To Success Standard Schools — 1st Edition 2025/2026 */
 
 let CATEGORIES={
   teachers:{label:'Staff Profiles',tag:'Staff',title:'Staff Profile Submission',subtitle:'Share your journey and message to the graduating class.',icon:'👨‍🏫',photoRequired:true,fields:[
@@ -121,8 +121,8 @@ let _supa=null;
 let subs=[];
 let lsSettings=loadLsSettingsFromStorage();
 let bulkPhotos=[];
-let sectionOrder=loadSectionOrder();
-let formConfig=loadFormConfig();
+let sectionOrder=[];
+let formConfig=null;
 
 function loadLsSettingsFromStorage(){
   try{
